@@ -8,9 +8,8 @@ The page intentionally contains no author names, affiliations, contact details, 
 
 - Two YouTube embeds: Simulation (left), Real World (right).
 - Six comparison scenes, each with this desktop arrangement:
-  - Row 1: OmniNav, centered.
-  - Row 2: OmniNav(-), TRACE.
-  - Row 3: ABS, Agile.
+  - Row 1: OmniNav, OmniNav(-).
+  - Row 2: TRACE, ABS, Agile.
 - Mobile layout stacks the videos without changing their order.
 - Native video controls, muted playback by default, per-scene play/pause/reset controls, and 1x default playback.
 
