@@ -1,12 +1,12 @@
 "use strict";
 
 const scenes = [
-  { id: "indoor-static", title: "Indoor Static Obstacles" },
-  { id: "indoor-dynamic", title: "Indoor Dynamic Obstacles" },
-  { id: "pillars", title: "Pillars" },
-  { id: "forest", title: "Forest" },
-  { id: "mesh-obstacles", title: "Mesh Obstacles" },
-  { id: "sports-field", title: "Crossing a Sports Field" }
+  { id: "indoor-static", title: "Indoor Static Obstacles", results: ["Success", "Success", "Success", "Failure", "Failure"] },
+  { id: "indoor-dynamic", title: "Indoor Dynamic Obstacles", results: ["Success", "Danger", "Danger", "Success", "Failure"] },
+  { id: "pillars", title: "Pillars", results: ["Success", "Success", "Failure", "Failure", "Failure"] },
+  { id: "forest", title: "Forest", results: ["Success", "Success", "Success", "Failure", "Failure"] },
+  { id: "mesh-obstacles", title: "Mesh Obstacles", results: ["Success", "Success", "Failure", "Failure", "Failure"] },
+  { id: "sports-field", title: "Crossing a Sports Field", results: ["Success", "Success", "Failure", "Failure", "Failure"] }
 ];
 const methods = [
   { id: "omninav", label: "OmniNav", featured: true },
@@ -33,13 +33,13 @@ for (const [index, scene] of scenes.entries()) {
         <button type="button" class="scene-button reset-button" aria-label="Reset all five videos in ${scene.title}" title="Reset scene">${resetIcon}</button>
       </div>
     </header>
-    <div class="video-grid">${methods.map(method => `
+    <div class="video-grid">${methods.map((method, methodIndex) => `
       <figure class="comparison-video${method.featured ? " featured" : ""}" data-method="${method.id}">
         <video controls muted playsinline preload="none" poster="media/${scene.id}/${method.id}.jpg" src="media/${scene.id}/${method.id}.mp4" aria-labelledby="${scene.id}-${method.id}-label">
           Your browser does not support embedded video. <a href="media/${scene.id}/${method.id}.mp4">Open the video.</a>
         </video>
         <p class="media-error" hidden>Video could not be loaded. <a href="media/${scene.id}/${method.id}.mp4" target="_blank" rel="noopener">Open video</a>.</p>
-        <figcaption class="video-caption" id="${scene.id}-${method.id}-label"><span>${method.label}</span></figcaption>
+        <figcaption class="video-caption" id="${scene.id}-${method.id}-label"><span>${method.label} : ${scene.results[methodIndex]}</span></figcaption>
       </figure>`).join("")}</div>
     <span class="scene-status" role="status" aria-live="polite"></span>`;
   sceneList.append(section);
