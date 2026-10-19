@@ -35,7 +35,7 @@ for (const [index, scene] of scenes.entries()) {
     </header>
     <div class="video-grid">${methods.map(method => `
       <figure class="comparison-video${method.featured ? " featured" : ""}" data-method="${method.id}">
-        <figcaption class="video-caption" id="${scene.id}-${method.id}-label"><span>${method.label}</span>${method.featured ? '<span class="method-note">Our method</span>' : ""}</figcaption>
+        <figcaption class="video-caption" id="${scene.id}-${method.id}-label"><span>${method.label}</span></figcaption>
         <video controls muted playsinline preload="none" poster="media/${scene.id}/${method.id}.jpg" src="media/${scene.id}/${method.id}.mp4" aria-labelledby="${scene.id}-${method.id}-label">
           Your browser does not support embedded video. <a href="media/${scene.id}/${method.id}.mp4">Open the video.</a>
         </video>
