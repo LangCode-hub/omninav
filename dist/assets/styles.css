@@ -17,14 +17,14 @@ h1{color:#24364b;font-size:clamp(36px,3.7vw,60px);font-weight:650;line-height:1.
 figure{margin:0;min-width:0}
 .overview-label{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}
 .eyebrow{font-size:14px;letter-spacing:1.8px;font-weight:700;color:var(--muted);margin:0}
-.overview h2{font-size:34px;line-height:1.25;letter-spacing:-.6px;font-weight:650;margin:0}
+.overview h2,.comparison-intro h2{font-size:34px;line-height:1.25;letter-spacing:-.6px;font-weight:650;margin:0}
 .youtube-frame{position:relative;aspect-ratio:16/9;background:#e7ece9;overflow:hidden;border-radius:7px;border:1px solid var(--line)}
 .youtube-frame iframe{display:block;width:100%;height:100%;border:0}
 .overview figcaption{text-align:right;padding-top:12px;font-size:16px;color:var(--muted)}
 .overview figcaption a{text-decoration:none}
 .overview figcaption a:hover{color:var(--accent);text-decoration:underline}
 .comparison-intro{padding-top:60px;padding-bottom:32px;border-top:1px solid var(--line);margin-top:56px}
-.comparison-intro h2{font-size:clamp(34px,3.2vw,48px);line-height:1.2;letter-spacing:-1.2px;font-weight:650;margin:0 0 18px}
+.comparison-intro h2{margin-bottom:18px}
 .comparison-intro>p:not(.eyebrow){font-size:24px;line-height:1.7;color:var(--muted);margin:0}
 .comparison-intro .playback-note{display:flex;align-items:center;gap:12px}
 .speed-mark{font-size:22px;color:var(--accent);border:1px solid #bbd2c9;background:var(--accent-soft);border-radius:4px;padding:1px 9px;flex-shrink:0;font-weight:700}
@@ -36,8 +36,7 @@ figure{margin:0;min-width:0}
 .scene:last-child{border-bottom:0}
 .scene-header{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:28px}
 .scene-title{display:flex;align-items:baseline;gap:16px;min-width:0}
-.scene-index{font-variant-numeric:tabular-nums;color:var(--ink);flex-shrink:0}
-.scene-index,.scene h3{font-size:36px;line-height:1.25;font-weight:650;letter-spacing:-.75px}
+.scene h3{font-size:36px;line-height:1.25;font-weight:650;letter-spacing:-.75px}
 .scene h3{margin:0}
 .scene-actions{display:flex;align-items:center;gap:12px;flex-shrink:0}
 .scene-button{display:inline-flex;align-items:center;gap:10px;justify-content:center;background:transparent;color:var(--ink);border:1px solid #bdc9c6;border-radius:5px;min-height:56px;padding:12px 20px;font-size:20px;line-height:1.4;font-weight:650;white-space:nowrap;cursor:pointer;transition:background .15s,border-color .15s}
@@ -58,6 +57,6 @@ figure{margin:0;min-width:0}
 .footer-dot{margin-inline:6px}
 .site-footer a{text-decoration:none}
 .site-footer a:hover{text-decoration:underline}
-@media(max-width:1100px){:root{--video-gap:24px}.container{width:calc(100% - 48px)}h1{font-size:clamp(36px,4.4vw,46px);letter-spacing:-1px}.title-break{display:none}.paper-header{padding-top:48px;padding-bottom:36px}.overview h2{font-size:30px}.scene-index,.scene h3{font-size:32px}.scene-nav a{padding-inline:12px}.comparison-intro{padding-top:48px;margin-top:44px}}
-@media(max-width:760px){html{scroll-padding-top:80px}body{font-size:16px}.container{width:calc(100% - 32px)}.paper-header{padding-top:36px;padding-bottom:32px}h1{font-size:clamp(30px,6.7vw,40px);letter-spacing:-.8px;line-height:1.22}.overview{grid-template-columns:1fr;gap:32px}.overview h2{font-size:28px}.overview-label{gap:6px;margin-bottom:12px}.overview figcaption{font-size:14px;padding-top:10px}.comparison-intro{margin-top:36px;padding-top:36px;padding-bottom:26px}.comparison-intro h2{font-size:32px;letter-spacing:-.8px}.comparison-intro>p:not(.eyebrow){font-size:20px}.comparison-intro .playback-note{align-items:flex-start;gap:10px}.speed-mark{font-size:18px}.scene-nav-inner{width:100%;padding:10px 16px;gap:4px}.scene-nav a{font-size:18px;padding:11px 12px}.scene{padding-block:32px 36px}.scene-header{align-items:flex-start;flex-direction:column;margin-bottom:24px;gap:16px}.scene-title{gap:12px;align-items:baseline}.scene-index,.scene h3{font-size:28px}.scene-button{font-size:18px;min-height:52px;padding:10px 16px}.scene-button svg{height:20px;width:20px}.reset-button{width:52px;padding:10px}.video-grid{grid-template-columns:1fr;gap:24px}.video-grid>.comparison-video{grid-column:1/-1}.video-caption{margin-top:10px;font-size:24px}.method-note{font-size:12px}.scene-status,.media-error{font-size:14px}.site-footer{font-size:14px;flex-wrap:wrap;padding-bottom:28px}.eyebrow{font-size:12px;letter-spacing:1.5px}}
+@media(max-width:1100px){:root{--video-gap:24px}.container{width:calc(100% - 48px)}h1{font-size:clamp(36px,4.4vw,46px);letter-spacing:-1px}.title-break{display:none}.paper-header{padding-top:48px;padding-bottom:36px}.overview h2,.comparison-intro h2{font-size:30px}.scene h3{font-size:32px}.scene-nav a{padding-inline:12px}.comparison-intro{padding-top:48px;margin-top:44px}}
+@media(max-width:760px){html{scroll-padding-top:80px}body{font-size:16px}.container{width:calc(100% - 32px)}.paper-header{padding-top:36px;padding-bottom:32px}h1{font-size:clamp(30px,6.7vw,40px);letter-spacing:-.8px;line-height:1.22}.overview{grid-template-columns:1fr;gap:32px}.overview h2,.comparison-intro h2{font-size:28px}.overview-label{gap:6px;margin-bottom:12px}.overview figcaption{font-size:14px;padding-top:10px}.comparison-intro{margin-top:36px;padding-top:36px;padding-bottom:26px}.comparison-intro>p:not(.eyebrow){font-size:20px}.comparison-intro .playback-note{align-items:flex-start;gap:10px}.speed-mark{font-size:18px}.scene-nav-inner{width:100%;padding:10px 16px;gap:4px}.scene-nav a{font-size:18px;padding:11px 12px}.scene{padding-block:32px 36px}.scene-header{align-items:flex-start;flex-direction:column;margin-bottom:24px;gap:16px}.scene-title{gap:12px;align-items:baseline}.scene h3{font-size:28px}.scene-button{font-size:18px;min-height:52px;padding:10px 16px}.scene-button svg{height:20px;width:20px}.reset-button{width:52px;padding:10px}.video-grid{grid-template-columns:1fr;gap:24px}.video-grid>.comparison-video{grid-column:1/-1}.video-caption{margin-top:10px;font-size:24px}.method-note{font-size:12px}.scene-status,.media-error{font-size:14px}.site-footer{font-size:14px;flex-wrap:wrap;padding-bottom:28px}.eyebrow{font-size:12px;letter-spacing:1.5px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}

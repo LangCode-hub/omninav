@@ -28,6 +28,7 @@ const playIcon = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5v11
 const pauseIcon = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2h3v12H4zm5 0h3v12H9z"/></svg>';
 const resetIcon = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2a6 6 0 1 1-5.66 8h1.63A4.5 4.5 0 1 0 4.8 4.85L7 7H1V1l2.72 2.72A5.98 5.98 0 0 1 8 2z"/></svg>';
 const sceneList = document.querySelector("#scene-list");
+const sceneNumerals = ["I", "II", "III", "IV", "V", "VI"];
 
 for (const [index, scene] of scenes.entries()) {
   const section = document.createElement("section");
@@ -36,7 +37,7 @@ for (const [index, scene] of scenes.entries()) {
   section.setAttribute("aria-labelledby", `${scene.id}-heading`);
   section.innerHTML = `
     <header class="scene-header">
-      <div class="scene-title"><span class="scene-index">${String(index + 1).padStart(2, "0")}</span><h3 id="${scene.id}-heading">${scene.title}</h3></div>
+      <div class="scene-title"><h3 id="${scene.id}-heading">Comparative Test ${sceneNumerals[index]}: ${scene.title}</h3></div>
       <div class="scene-actions">
         <button type="button" class="scene-button play-button" aria-label="Play all five videos in ${scene.title}" aria-pressed="false">${playIcon}<span>Play scene</span></button>
         <button type="button" class="scene-button reset-button" aria-label="Reset all five videos in ${scene.title}" title="Reset scene">${resetIcon}</button>
