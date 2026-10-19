@@ -1,0 +1,525 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-19T05:01:12.866732+00:00",
+  "videoCount": 30,
+  "totalVideoBytes": 384119481,
+  "totalPosterBytes": 2632826,
+  "scenes": [
+    {
+      "id": "indoor-static",
+      "label": "Indoor Static",
+      "videos": [
+        {
+          "algorithm": "omninav",
+          "label": "OmniNav",
+          "src": "media/indoor-static/omninav.mp4",
+          "poster": "media/indoor-static/omninav.jpg",
+          "durationSeconds": 8.433333,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 8520342,
+          "posterSizeBytes": 76744
+        },
+        {
+          "algorithm": "omninav-minus",
+          "label": "OmniNav(-)",
+          "src": "media/indoor-static/omninav-minus.mp4",
+          "poster": "media/indoor-static/omninav-minus.jpg",
+          "durationSeconds": 8.766667,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 8866206,
+          "posterSizeBytes": 75090
+        },
+        {
+          "algorithm": "trace",
+          "label": "TRACE",
+          "src": "media/indoor-static/trace.mp4",
+          "poster": "media/indoor-static/trace.jpg",
+          "durationSeconds": 9.733333,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 9794606,
+          "posterSizeBytes": 55944
+        },
+        {
+          "algorithm": "abs",
+          "label": "ABS",
+          "src": "media/indoor-static/abs.mp4",
+          "poster": "media/indoor-static/abs.jpg",
+          "durationSeconds": 11.833333,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 12148652,
+          "posterSizeBytes": 66649
+        },
+        {
+          "algorithm": "agile",
+          "label": "Agile",
+          "src": "media/indoor-static/agile.mp4",
+          "poster": "media/indoor-static/agile.jpg",
+          "durationSeconds": 7.933333,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 7940100,
+          "posterSizeBytes": 60717
+        }
+      ]
+    },
+    {
+      "id": "indoor-dynamic",
+      "label": "Indoor Dynamic",
+      "videos": [
+        {
+          "algorithm": "omninav",
+          "label": "OmniNav",
+          "src": "media/indoor-dynamic/omninav.mp4",
+          "poster": "media/indoor-dynamic/omninav.jpg",
+          "durationSeconds": 7.333333,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 7301250,
+          "posterSizeBytes": 62903
+        },
+        {
+          "algorithm": "omninav-minus",
+          "label": "OmniNav(-)",
+          "src": "media/indoor-dynamic/omninav-minus.mp4",
+          "poster": "media/indoor-dynamic/omninav-minus.jpg",
+          "durationSeconds": 7.966667,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 8042487,
+          "posterSizeBytes": 60398
+        },
+        {
+          "algorithm": "trace",
+          "label": "TRACE",
+          "src": "media/indoor-dynamic/trace.mp4",
+          "poster": "media/indoor-dynamic/trace.jpg",
+          "durationSeconds": 9.133333,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 9231333,
+          "posterSizeBytes": 59546
+        },
+        {
+          "algorithm": "abs",
+          "label": "ABS",
+          "src": "media/indoor-dynamic/abs.mp4",
+          "poster": "media/indoor-dynamic/abs.jpg",
+          "durationSeconds": 10.366667,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 10473004,
+          "posterSizeBytes": 73544
+        },
+        {
+          "algorithm": "agile",
+          "label": "Agile",
+          "src": "media/indoor-dynamic/agile.mp4",
+          "poster": "media/indoor-dynamic/agile.jpg",
+          "durationSeconds": 8.033333,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 8314435,
+          "posterSizeBytes": 45786
+        }
+      ]
+    },
+    {
+      "id": "pillars",
+      "label": "Pillars",
+      "videos": [
+        {
+          "algorithm": "omninav",
+          "label": "OmniNav",
+          "src": "media/pillars/omninav.mp4",
+          "poster": "media/pillars/omninav.jpg",
+          "durationSeconds": 7.8,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 7820851,
+          "posterSizeBytes": 78903
+        },
+        {
+          "algorithm": "omninav-minus",
+          "label": "OmniNav(-)",
+          "src": "media/pillars/omninav-minus.mp4",
+          "poster": "media/pillars/omninav-minus.jpg",
+          "durationSeconds": 7.166667,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 7302573,
+          "posterSizeBytes": 65458
+        },
+        {
+          "algorithm": "trace",
+          "label": "TRACE",
+          "src": "media/pillars/trace.mp4",
+          "poster": "media/pillars/trace.jpg",
+          "durationSeconds": 10.466667,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 10927667,
+          "posterSizeBytes": 63418
+        },
+        {
+          "algorithm": "abs",
+          "label": "ABS",
+          "src": "media/pillars/abs.mp4",
+          "poster": "media/pillars/abs.jpg",
+          "durationSeconds": 10.233333,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 10521158,
+          "posterSizeBytes": 57270
+        },
+        {
+          "algorithm": "agile",
+          "label": "Agile",
+          "src": "media/pillars/agile.mp4",
+          "poster": "media/pillars/agile.jpg",
+          "durationSeconds": 6.966667,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 7058360,
+          "posterSizeBytes": 60208
+        }
+      ]
+    },
+    {
+      "id": "forest",
+      "label": "Forest",
+      "videos": [
+        {
+          "algorithm": "omninav",
+          "label": "OmniNav",
+          "src": "media/forest/omninav.mp4",
+          "poster": "media/forest/omninav.jpg",
+          "durationSeconds": 14.9,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 15154965,
+          "posterSizeBytes": 168121
+        },
+        {
+          "algorithm": "omninav-minus",
+          "label": "OmniNav(-)",
+          "src": "media/forest/omninav-minus.mp4",
+          "poster": "media/forest/omninav-minus.jpg",
+          "durationSeconds": 12.1,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 70230502,
+          "posterSizeBytes": 208952
+        },
+        {
+          "algorithm": "trace",
+          "label": "TRACE",
+          "src": "media/forest/trace.mp4",
+          "poster": "media/forest/trace.jpg",
+          "durationSeconds": 17.666667,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 18099375,
+          "posterSizeBytes": 178495
+        },
+        {
+          "algorithm": "abs",
+          "label": "ABS",
+          "src": "media/forest/abs.mp4",
+          "poster": "media/forest/abs.jpg",
+          "durationSeconds": 20.533333,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 21373119,
+          "posterSizeBytes": 197932
+        },
+        {
+          "algorithm": "agile",
+          "label": "Agile",
+          "src": "media/forest/agile.mp4",
+          "poster": "media/forest/agile.jpg",
+          "durationSeconds": 22.5,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 23053349,
+          "posterSizeBytes": 193930
+        }
+      ]
+    },
+    {
+      "id": "mesh-obstacles",
+      "label": "Mesh Obstacles",
+      "videos": [
+        {
+          "algorithm": "omninav",
+          "label": "OmniNav",
+          "src": "media/mesh-obstacles/omninav.mp4",
+          "poster": "media/mesh-obstacles/omninav.jpg",
+          "durationSeconds": 6.433333,
+          "width": 3840,
+          "height": 2160,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 18526638,
+          "posterSizeBytes": 87718
+        },
+        {
+          "algorithm": "omninav-minus",
+          "label": "OmniNav(-)",
+          "src": "media/mesh-obstacles/omninav-minus.mp4",
+          "poster": "media/mesh-obstacles/omninav-minus.jpg",
+          "durationSeconds": 6.466667,
+          "width": 3840,
+          "height": 2160,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 18445902,
+          "posterSizeBytes": 85390
+        },
+        {
+          "algorithm": "trace",
+          "label": "TRACE",
+          "src": "media/mesh-obstacles/trace.mp4",
+          "poster": "media/mesh-obstacles/trace.jpg",
+          "durationSeconds": 7.133333,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 7204166,
+          "posterSizeBytes": 71823
+        },
+        {
+          "algorithm": "abs",
+          "label": "ABS",
+          "src": "media/mesh-obstacles/abs.mp4",
+          "poster": "media/mesh-obstacles/abs.jpg",
+          "durationSeconds": 8.866667,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 8962383,
+          "posterSizeBytes": 72910
+        },
+        {
+          "algorithm": "agile",
+          "label": "Agile",
+          "src": "media/mesh-obstacles/agile.mp4",
+          "poster": "media/mesh-obstacles/agile.jpg",
+          "durationSeconds": 7.9,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 8307764,
+          "posterSizeBytes": 69629
+        }
+      ]
+    },
+    {
+      "id": "sports-field",
+      "label": "Across Sports Field",
+      "videos": [
+        {
+          "algorithm": "omninav",
+          "label": "OmniNav",
+          "src": "media/sports-field/omninav.mp4",
+          "poster": "media/sports-field/omninav.jpg",
+          "durationSeconds": 7.1,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 7203319,
+          "posterSizeBytes": 66958
+        },
+        {
+          "algorithm": "omninav-minus",
+          "label": "OmniNav(-)",
+          "src": "media/sports-field/omninav-minus.mp4",
+          "poster": "media/sports-field/omninav-minus.jpg",
+          "durationSeconds": 6.366667,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 6378874,
+          "posterSizeBytes": 63941
+        },
+        {
+          "algorithm": "trace",
+          "label": "TRACE",
+          "src": "media/sports-field/trace.mp4",
+          "poster": "media/sports-field/trace.jpg",
+          "durationSeconds": 7.033333,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 7053738,
+          "posterSizeBytes": 66532
+        },
+        {
+          "algorithm": "abs",
+          "label": "ABS",
+          "src": "media/sports-field/abs.mp4",
+          "poster": "media/sports-field/abs.jpg",
+          "durationSeconds": 10.666667,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 11151759,
+          "posterSizeBytes": 69611
+        },
+        {
+          "algorithm": "agile",
+          "label": "Agile",
+          "src": "media/sports-field/agile.mp4",
+          "poster": "media/sports-field/agile.jpg",
+          "durationSeconds": 8.8,
+          "width": 1280,
+          "height": 720,
+          "frameRate": "30/1",
+          "codec": "h264",
+          "audioCodecs": [
+            "aac"
+          ],
+          "sizeBytes": 8710604,
+          "posterSizeBytes": 68306
+        }
+      ]
+    }
+  ]
+}
