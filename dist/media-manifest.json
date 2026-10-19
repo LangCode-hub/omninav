@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T18:06:24+00:00",
+  "generatedAt": "2026-10-19T18:22:35+00:00",
   "videoCount": 30,
-  "totalVideoBytes": 382364569,
-  "totalPosterBytes": 2839710,
+  "totalVideoBytes": 382909017,
+  "totalPosterBytes": 2868012,
   "scenes": [
     {
       "id": "indoor-static",
@@ -234,7 +234,7 @@
           "label": "ABS",
           "src": "media/pillars/abs.mp4",
           "poster": "media/pillars/abs.jpg",
-          "durationSeconds": 10.233333,
+          "durationSeconds": 10.533333,
           "width": 1280,
           "height": 720,
           "frameRate": "30/1",
@@ -242,8 +242,8 @@
           "audioCodecs": [
             "aac"
           ],
-          "sizeBytes": 10521158,
-          "posterSizeBytes": 57270
+          "sizeBytes": 11065606,
+          "posterSizeBytes": 85572
         },
         {
           "algorithm": "agile",
