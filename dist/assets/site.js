@@ -18,7 +18,8 @@ const methods = [
 const mediaVersions = {
   "indoor-dynamic/omninav": "dfd9792519a2",
   "indoor-dynamic/omninav-minus": "8c6738c4e707",
-  "indoor-dynamic/trace": "a35116ac7360"
+  "indoor-dynamic/trace": "a35116ac7360",
+  "indoor-dynamic/abs": "a993ac4156fe"
 };
 function mediaUrl(scene, method, extension) {
   const key = `${scene.id}/${method.id}`;

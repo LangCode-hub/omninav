@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T17:26:06+00:00",
+  "generatedAt": "2026-10-19T17:43:19+00:00",
   "videoCount": 30,
-  "totalVideoBytes": 383208572,
-  "totalPosterBytes": 2772308,
+  "totalVideoBytes": 383084726,
+  "totalPosterBytes": 2813581,
   "scenes": [
     {
       "id": "indoor-static",
@@ -148,7 +148,7 @@
           "label": "ABS",
           "src": "media/indoor-dynamic/abs.mp4",
           "poster": "media/indoor-dynamic/abs.jpg",
-          "durationSeconds": 10.366667,
+          "durationSeconds": 10.233333,
           "width": 1280,
           "height": 720,
           "frameRate": "30/1",
@@ -156,8 +156,8 @@
           "audioCodecs": [
             "aac"
           ],
-          "sizeBytes": 10473004,
-          "posterSizeBytes": 73544
+          "sizeBytes": 10349158,
+          "posterSizeBytes": 114817
         },
         {
           "algorithm": "agile",
