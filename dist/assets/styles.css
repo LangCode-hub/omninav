@@ -30,8 +30,9 @@ figure{margin:0;min-width:0}
 .speed-mark{font-size:22px;color:var(--accent);border:1px solid #bbd2c9;background:var(--accent-soft);border-radius:4px;padding:1px 9px;flex-shrink:0;font-weight:700}
 .scene-nav{position:sticky;top:0;z-index:10;border-block:1px solid var(--line);background:rgba(250,250,248,.97);backdrop-filter:blur(10px)}
 .scene-nav-inner{display:flex;gap:10px;padding-block:12px;overflow-x:auto;scrollbar-width:thin}
-.scene-nav a{font-size:22px;font-weight:600;white-space:nowrap;text-decoration:none;padding:10px 16px;border-radius:5px;color:var(--muted)}
-.scene-nav a:hover,.scene-nav a[aria-current="location"]{background:var(--accent-soft);color:var(--accent)}
+.scene-nav a{font-size:22px;font-weight:600;white-space:nowrap;text-decoration:none;padding:10px 16px;border-radius:5px;color:#596579}
+.scene-nav a:hover{background:#e9eef5;color:#24364b}
+.scene-nav a[aria-current="location"]{background:#2563eb;color:#fff}
 .scene{padding-block:48px 60px;border-bottom:1px solid var(--line);scroll-margin-top:0}
 .scene:last-child{border-bottom:0}
 .scene-header{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:28px}
