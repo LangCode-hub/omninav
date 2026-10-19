@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T05:01:12.866732+00:00",
+  "generatedAt": "2026-10-19T16:48:10+00:00",
   "videoCount": 30,
-  "totalVideoBytes": 384119481,
-  "totalPosterBytes": 2632826,
+  "totalVideoBytes": 383850155,
+  "totalPosterBytes": 2684543,
   "scenes": [
     {
       "id": "indoor-static",
@@ -100,7 +100,7 @@
           "label": "OmniNav",
           "src": "media/indoor-dynamic/omninav.mp4",
           "poster": "media/indoor-dynamic/omninav.jpg",
-          "durationSeconds": 7.333333,
+          "durationSeconds": 7.0,
           "width": 1280,
           "height": 720,
           "frameRate": "30/1",
@@ -108,8 +108,8 @@
           "audioCodecs": [
             "aac"
           ],
-          "sizeBytes": 7301250,
-          "posterSizeBytes": 62903
+          "sizeBytes": 7031924,
+          "posterSizeBytes": 114620
         },
         {
           "algorithm": "omninav-minus",

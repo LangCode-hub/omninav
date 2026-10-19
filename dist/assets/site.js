@@ -15,6 +15,12 @@ const methods = [
   { id: "abs", label: "ABS" },
   { id: "agile", label: "Agile" }
 ];
+const mediaVersions = { "indoor-dynamic/omninav": "dfd9792519a2" };
+function mediaUrl(scene, method, extension) {
+  const key = `${scene.id}/${method.id}`;
+  const version = mediaVersions[key];
+  return `media/${key}.${extension}${version ? `?v=${version}` : ""}`;
+}
 const playIcon = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5v11L13 8z"/></svg>';
 const pauseIcon = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2h3v12H4zm5 0h3v12H9z"/></svg>';
 const resetIcon = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2a6 6 0 1 1-5.66 8h1.63A4.5 4.5 0 1 0 4.8 4.85L7 7H1V1l2.72 2.72A5.98 5.98 0 0 1 8 2z"/></svg>';
@@ -35,10 +41,10 @@ for (const [index, scene] of scenes.entries()) {
     </header>
     <div class="video-grid">${methods.map((method, methodIndex) => `
       <figure class="comparison-video${method.featured ? " featured" : ""}" data-method="${method.id}">
-        <video controls muted playsinline preload="none" poster="media/${scene.id}/${method.id}.jpg" src="media/${scene.id}/${method.id}.mp4" aria-labelledby="${scene.id}-${method.id}-label">
-          Your browser does not support embedded video. <a href="media/${scene.id}/${method.id}.mp4">Open the video.</a>
+        <video controls muted playsinline preload="none" poster="${mediaUrl(scene, method, "jpg")}" src="${mediaUrl(scene, method, "mp4")}" aria-labelledby="${scene.id}-${method.id}-label">
+          Your browser does not support embedded video. <a href="${mediaUrl(scene, method, "mp4")}">Open the video.</a>
         </video>
-        <p class="media-error" hidden>Video could not be loaded. <a href="media/${scene.id}/${method.id}.mp4" target="_blank" rel="noopener">Open video</a>.</p>
+        <p class="media-error" hidden>Video could not be loaded. <a href="${mediaUrl(scene, method, "mp4")}" target="_blank" rel="noopener">Open video</a>.</p>
         <figcaption class="video-caption" id="${scene.id}-${method.id}-label"><span>${method.label} : ${scene.results[methodIndex]}</span></figcaption>
       </figure>`).join("")}</div>
     <span class="scene-status" role="status" aria-live="polite"></span>`;
