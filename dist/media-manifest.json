@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T18:22:35+00:00",
+  "generatedAt": "2026-10-19T18:26:59+00:00",
   "videoCount": 30,
-  "totalVideoBytes": 382909017,
-  "totalPosterBytes": 2868012,
+  "totalVideoBytes": 383283870,
+  "totalPosterBytes": 2896387,
   "scenes": [
     {
       "id": "indoor-static",
@@ -250,7 +250,7 @@
           "label": "Agile",
           "src": "media/pillars/agile.mp4",
           "poster": "media/pillars/agile.jpg",
-          "durationSeconds": 6.966667,
+          "durationSeconds": 7.1,
           "width": 1280,
           "height": 720,
           "frameRate": "30/1",
@@ -258,8 +258,8 @@
           "audioCodecs": [
             "aac"
           ],
-          "sizeBytes": 7058360,
-          "posterSizeBytes": 60208
+          "sizeBytes": 7433213,
+          "posterSizeBytes": 88583
         }
       ]
     },

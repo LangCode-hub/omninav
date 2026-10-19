@@ -21,7 +21,8 @@ const mediaVersions = {
   "indoor-dynamic/trace": "a35116ac7360",
   "indoor-dynamic/abs": "a993ac4156fe",
   "pillars/omninav-minus": "4a63b98a9b4a",
-  "pillars/abs": "0e3ec1068575"
+  "pillars/abs": "0e3ec1068575",
+  "pillars/agile": "4144300e162d"
 };
 function mediaUrl(scene, method, extension) {
   const key = `${scene.id}/${method.id}`;
