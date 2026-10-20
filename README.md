@@ -8,6 +8,3 @@ Static supplementary-video website for **OmniNav: Learning to Anticipate and Rea
 - Six comparison scenes, each with this desktop arrangement:
   - Row 1: OmniNav, OmniNav(-).
   - Row 2: TRACE, ABS, Agile.
-- Mobile layout stacks the videos without changing their order.
-- Algorithm names are centered plain-text captions beneath each comparison video.
-- Native video controls, muted playback by default, per-scene play/pause/reset controls, and 1x default playback.
