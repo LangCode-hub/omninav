@@ -29,6 +29,4 @@ All site URLs are relative, so the page works at a repository subpath. The 30 co
 
 ## Media and anonymous review
 
-Website video copies use H.264/AAC with fast-start MP4 packaging. Encoded video/audio are preserved; location, device, and other identifying metadata are omitted. The supplied media resolutions and frame rates are retained. The two overview videos are embedded from YouTube and are not included in this repository.
-
 Removing names from a page cannot guarantee anonymity. Check the GitHub account, commit identity, YouTube channel, and any identifying material visible or audible in the videos before submitting a review link. Third-party players may expose their channel information.
