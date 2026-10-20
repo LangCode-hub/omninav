@@ -20,9 +20,3 @@ Run `python tools/preview.py`, then open `http://127.0.0.1:8743`.
 Use an HTTP preview instead of opening the HTML as a local file, so YouTube can receive the required referrer information.
 
 Run `python tools/validate.py` to verify the expected files and layout configuration.
-
-## GitHub Pages
-
-The deployment workflow publishes only `dist/`. In the repository's **Settings → Pages**, choose **GitHub Actions** as the source. Pushing to `main` deploys the site.
-
-All site URLs are relative, so the page works at a repository subpath. The 30 comparison videos are stored directly in the repository, not as Git LFS pointers. Use Git for uploading: the largest file exceeds the browser upload limit but is below the Git file-size limit.
