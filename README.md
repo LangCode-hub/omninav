@@ -2,8 +2,6 @@
 
 Static supplementary-video website for **OmniNav: Learning to Anticipate and React for High-Speed Quadrupedal Navigation amid Dense and Dynamic Obstacles**.
 
-The page intentionally contains no author names, affiliations, contact details, analytics, or external font dependencies.
-
 ## Content
 
 - Two YouTube embeds: Simulation (left), Real World (right).
