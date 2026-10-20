@@ -26,7 +26,3 @@ Run `python tools/validate.py` to verify the expected files and layout configura
 The deployment workflow publishes only `dist/`. In the repository's **Settings → Pages**, choose **GitHub Actions** as the source. Pushing to `main` deploys the site.
 
 All site URLs are relative, so the page works at a repository subpath. The 30 comparison videos are stored directly in the repository, not as Git LFS pointers. Use Git for uploading: the largest file exceeds the browser upload limit but is below the Git file-size limit.
-
-## Media and anonymous review
-
-Removing names from a page cannot guarantee anonymity. Check the GitHub account, commit identity, YouTube channel, and any identifying material visible or audible in the videos before submitting a review link. Third-party players may expose their channel information.
