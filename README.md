@@ -5,6 +5,6 @@ Static supplementary-video website for **OmniNav: Learning to Anticipate and Rea
 ## Content
 
 - Two YouTube embeds: Simulation (left), Real World (right).
-- Six comparison scenes, each with this desktop arrangement:
+- Six comparison scenes:
   - Row 1: OmniNav, OmniNav(-).
   - Row 2: TRACE, ABS, Agile.
