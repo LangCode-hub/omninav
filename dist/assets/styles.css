@@ -10,6 +10,7 @@ button{font:inherit}
 .skip-link{position:fixed;top:-80px;left:16px;z-index:100;padding:12px 18px;background:var(--ink);color:white;border-radius:6px}
 .skip-link:focus{top:16px}
 .paper-header{padding-top:64px;padding-bottom:44px;text-align:center}
+.playback-notice{margin:24px 0 0;color:#c62828;font-size:clamp(20px,1.8vw,28px);line-height:1.4;font-weight:650}
 h1{color:#24364b;font-size:clamp(36px,3.7vw,60px);font-weight:650;line-height:1.2;letter-spacing:-1.5px;margin:0 auto;max-width:1600px;text-wrap:balance}
 .project-name{color:inherit;font-weight:800}
 .overview{display:grid;grid-template-columns:1fr 1fr;gap:var(--video-gap)}
